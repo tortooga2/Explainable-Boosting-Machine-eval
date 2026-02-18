@@ -1,4 +1,7 @@
-# Report 3: Explainable Boosting Machine
+# Explainable Boosting Machine Evaluation 
+
+UC Merced - CSE 176
+Professor Miguel Carreira-Perpiñán
 
 ## Overview of Model
 
@@ -146,3 +149,4 @@ While the EBM worked well on the regression dataset, it did not achieve the clas
 - **No interactions** — With `interactions = 0`, the model cannot represent complex spatiotemporal dependencies that distinguish subtle gestures from one another.
 
 This explains why the model remains interpretable and tractable, yet underfits nuanced temporal gesture distinctions. The EBM's strength — its transparency — comes at the cost of expressive power for datasets where complex feature interactions across time are critical for accurate classification.
+
